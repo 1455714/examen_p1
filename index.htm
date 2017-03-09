@@ -4,14 +4,31 @@
   <head>
     <meta charset="utf-8">
     <title>Examen - Partie 1</title>
-
+    
+      
       <link href="assets/css/reset.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 
   </head>
   <body>
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+      <title>forme</title>
+    <defs>
+      <g id="forme">
+       <circle cx="100" cy="100" r="40"
+      style="fill:red;stroke:red;stroke-width:0" />
+          <ellipse cx="100" cy="100" rx="70" ry="13"
+      style="fill:green;stroke:red;stroke-width:0" />
+          <ellipse cx="100" cy="100" rx="13" ry="70"
+      style="fill:green;stroke:red;stroke-width:0" />
+      </g>
+        </defs>
+        <use x="200" y="0" xlink:href="#forme"/>
+        <use x="0" y="100" xlink:href="#forme"/>
+        <use x="400" y="100" xlink:href="#forme"/>
+        <use x="200" y="200" xlink:href="#forme"/>
+    </svg>
 
-      <div class="imgSvg"></div>
 
   </body>
 </html>
