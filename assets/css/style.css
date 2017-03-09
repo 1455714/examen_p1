@@ -1,6 +1,7 @@
 #forme{
     transform-origin:inherit;
-    animation:rotation 2s linear infinite;
+    animation:rotation 2.5s linear infinite;
+         stroke-dasharray:50%;
 }
 
 
@@ -8,8 +9,11 @@
 @keyframes rotation{
     from{
         transform:rotate(0deg);
+         stroke-dashoffset:100%;
     }
+   
     to{
         transform:rotate(360deg);
+         stroke-dashoffset:0%;
     }
 }
