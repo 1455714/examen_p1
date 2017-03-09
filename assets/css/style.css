@@ -1,6 +1,9 @@
-.forme{
+#forme{
+    transform-origin:inherit;
     animation:rotation 2s linear infinite;
 }
+
+
 
 @keyframes rotation{
     from{
