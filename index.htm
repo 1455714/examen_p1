@@ -4,32 +4,31 @@
   <head>
     <meta charset="utf-8">
     <title>Examen - Partie 1</title>
-    
-      
+    <!-- Feuilles de style -->
       <link href="assets/css/reset.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 
   </head>
   <body>
-<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+      <!-- Formes SVG -->
+    <svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
       <title>forme</title>
-    <defs>
-      <g id="forme">
-       <circle cx="0" cy="0" r="40"
-      style="fill:red;stroke:blue;stroke-width:2" />
-          <ellipse cx="0" cy="0" rx="70" ry="13"
-      style="fill:green;stroke:blue;stroke-width:2" />
-          <ellipse cx="0" cy="0" rx="13" ry="70"
-      style="fill:green;stroke:blue;stroke-width:2" />
-      </g>
+        <!-- Contient la forme qui sera répétée, cachée -->
+      <defs>
+          <g id="forme">
+              <!-- Cercle -->
+           <circle cx="0" cy="0" r="40" class="cercle"/>
+              <!-- Ellipse horizontale -->
+              <ellipse cx="0" cy="0" rx="70" ry="13" class="ellipse"/>
+              <!-- Ellipse verticale -->
+              <ellipse cx="0" cy="0" rx="13" ry="70" class="ellipse"/>
+          </g>
         </defs>
+        <!-- Les 4 formes affichées -->
         <use x="300" y="100" xlink:href="#forme"/>
         <use x="100" y="200" xlink:href="#forme"/>
         <use x="500" y="200" xlink:href="#forme"/>
         <use x="300" y="300" xlink:href="#forme"/> 
-    
     </svg>
-
-
   </body>
 </html>

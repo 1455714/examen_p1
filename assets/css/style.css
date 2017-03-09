@@ -1,11 +1,26 @@
+/* CSS des formes svg*/
+.cercle{
+    fill:red;
+}
+
+.ellipse{
+    fill:green;
+}
+
+.cercle, .ellipse{
+    stroke:blue;
+    stroke-width:2px;
+}
+
+
+/* Permet de donner une animation aux figures */
 #forme{
     transform-origin:inherit;
     animation:rotation 2.5s linear infinite;
          stroke-dasharray:50%;
 }
 
-
-
+/* L'animation, qui joue sur la rotation et le stroke */
 @keyframes rotation{
     from{ 
         transform:rotate(0deg);
