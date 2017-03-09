@@ -2,7 +2,8 @@
  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
 
   <title>forme</title>
-  <g>
+<defs>
+  <g id="forme">
    <ellipse cx="100" cy="100" rx="40" ry="40"
   style="fill:red;stroke:red;stroke-width:0" />
       <ellipse cx="100" cy="100" rx="70" ry="13"
@@ -10,4 +11,5 @@
       <ellipse cx="100" cy="100" rx="13" ry="70"
   style="fill:green;stroke:red;stroke-width:0" />
   </g>
+    </defs>
 </svg>
